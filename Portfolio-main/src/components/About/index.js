@@ -1,11 +1,11 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
-import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import {   faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import HarryPotterImage from '../../assets/images/img_main.jpg'
+import pdf from '../../assets/pdf/resum.pdf'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -47,14 +47,15 @@ const About = () => {
             person, father of a beautiful daughter, a sports fanatic,
             photography enthusiast, and tech-obsessed!!!
           </p>
+          <div className="button">
+          <a download href={pdf}>RESUME <FontAwesomeIcon icon={faFileDownload} /></a>
+          </div>
         </div>
-        <Link to="/contact" className="button">
-            CONTACT ME
-          </Link>
-      </div>
-    <div className='style'>
-      <img src={HarryPotterImage} alt="harry potter" style={{ width: '400px',borderRadius: '8px'}}/>
+        <div className='style'>
+      <img className='img' src={HarryPotterImage} alt="harry potter" />
     </div>
+      </div>
+    
   );
       <Loader type="pacman" />
     </>
