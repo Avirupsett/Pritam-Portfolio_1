@@ -75,7 +75,7 @@ useEffect(() => {
         {/* <Logo /> */}
         
         <div className='img-container'>
-      <img src={portimg} alt="port1.gif" style={{ position:'static',display:'flex',width: '800px', float:'right', marginTop: '50px'   }} />
+      <img src={portimg} alt="port1.gif" style={{ width: '100%', marginTop: '50px'   }} />
     </div>
         
       </div>

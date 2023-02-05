@@ -28,14 +28,18 @@
   will-change: contents;
   height: 90%;
   min-height: 566px;
-  position: absolute;
+  // position: absolute;
+  display: flex;
+  flex-wrap: wrap;
   opacity: 0;
   top: 5%;
-  margin: 0 auto;
+  // margin: 0 auto;
   z-index: 1;
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
+  justify-content: center;
+  align-items: center;
 }
 
 .container.contact-page,
@@ -97,13 +101,13 @@
     }
 
   .text-zone {
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 35%;
-    vertical-align: middle;
-    display: table-cell;
+    // position: absolute;
+    // left: 10%;
+    // top: 50%;
+    // transform: translateY(-50%);
+    // width: 35%;
+    // vertical-align: middle;
+    // display: table-cell;
     max-height: 90%;
   }
 
