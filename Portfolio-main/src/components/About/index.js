@@ -24,8 +24,12 @@ const About = () => {
 
   return (
     <>
-      <div className="container about-page">
-        <div className="text-zone">
+      <div className="container about-page" style={{display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    flexWrap: "wrap",}}>
+        <div className="text-zone" style={{position: "static",
+    transform: "none"}}>
           <h1>
             <AnimatedLetters
               letterClass={letterClass}

@@ -43,8 +43,12 @@ useEffect(() => {
 
   return (
     <>
-      <div className="container home-page">
-        <div className="text-zone">
+      <div className="container home-page" style={{display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    flexWrap: "wrap",}}>
+        <div className="text-zone" style={{position: "static",
+    transform: "none"}}>
           <h1>
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
@@ -75,7 +79,7 @@ useEffect(() => {
         {/* <Logo /> */}
         
         <div className='img-container'>
-      <img src={portimg} alt="port1.gif" style={{ position:'static',display:'flex',width: '800px', float:'right', marginTop: '50px'   }} />
+      <img src={portimg} alt="port1.gif" style={{width: '100%', }} />
     </div>
         
       </div>

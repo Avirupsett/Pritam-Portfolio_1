@@ -90,11 +90,11 @@
 }
 .img{
   display: flex;
-   float: right;
-    width: 550px;
-     height: 500px;
+  //  float: right;
+    width: 400px;
+    //  height: 500px;
      margin-top: 6%;
-      padding: 32px 68px;
+      padding: 68px 32px;
 }
 
   @media screen and (max-width: 1200px) {
@@ -125,6 +125,14 @@
       display: block;
       margin: 20px auto 0 auto;
       width: 124px;
+    }
+    .img{
+      display: flex;
+      //  float: right;
+        width: 100%;
+        //  height: 500px;
+         margin-top: 6%;
+          padding: 0px;
     }
     }
   
