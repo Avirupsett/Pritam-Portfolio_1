@@ -1,13 +1,11 @@
 
 .home-page {
     .text-zone {
-      // position: absolute;
-      // left: 10%;
-      // top: 50%;
-      // transform: translateY(-50%);
-      // width: 40%;
-      margin-right: 25px;
-      margin-top: 50px;
+      position: absolute;
+      left: 10%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40%;
       max-height: 90%;
     }
     
@@ -22,7 +20,7 @@
       margin: 0;
       font-family: 'Coolvetica';
       font-weight: 400;
-      margin-left: 80px;
+      margin-left: 100px;
   
       &:before {
         content: '<h1>';
@@ -31,7 +29,7 @@
         font-size: 18px;
         position: absolute;
         margin-top: -40px;
-        left: 130px;
+        left: -15px;
         opacity: 0.6;
       }
   
@@ -66,7 +64,7 @@
       font-family: sans-serif;
       letter-spacing: 3px;
       animation: fadeIn 1s 1.8s backwards;
-      margin-left: 80px;
+      margin-left: 100px;
     }
     
     .flat-button {
@@ -82,7 +80,7 @@
       float: left;
       animation: fadeInAnimation 1s 1.8s backwards;
       white-space: nowrap;
-      margin-left: 80px;
+      margin-left: 100px;
   
       &:hover {
         background: #ffd700;
@@ -111,10 +109,10 @@
     }
   
     .home-page .text-zone {
-      // position: initial;
-      // width: 100%;
-      // transform: none;
-      // padding: 10px;
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 10px;
       box-sizing: border-box;
 
       h1 {

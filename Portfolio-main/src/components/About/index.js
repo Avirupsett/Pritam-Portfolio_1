@@ -51,7 +51,7 @@ const About = () => {
           <a download href={pdf}>RESUME <FontAwesomeIcon icon={faFileDownload} /></a>
           </div>
         </div>
-        <div className='img-container' style={{display:'contents'}}>
+        <div className='style'>
       <img className='img' src={HarryPotterImage} alt="harry potter" />
     </div>
       </div>
